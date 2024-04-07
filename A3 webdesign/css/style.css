@@ -1,0 +1,118 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+
+}
+body, html {
+    margin: auto;
+    padding: auto;
+    font-family: Arial, sans-serif;
+    background-image: url(/images/kfc-bg.jpeg); 
+}
+
+
+.header {
+    /* width: fit-content;
+    height: fit-content; */
+    background-color: rgb(255, 255, 255);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 2px solid black;
+}
+
+.header img{
+    width: 100px;
+}
+
+#about h2{
+    color: white;
+    font-size: 50px;
+}
+#about p{
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#menu h2{
+    color: rgb(42, 29, 29);
+    font-size: 40px;
+    background-color: #eee;
+}
+
+
+#banner-image {
+    width: 100%;
+    height: auto; 
+}
+
+.menu-category h3 {
+    cursor: pointer;
+    background-color: #eee;
+    margin: 0;
+    padding: 10px;
+}
+
+
+.menu-category h3{
+    color: black;
+}
+
+.menu-items p {
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+
+header {
+    background-color: #f40023;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.menu-category h3 {
+    cursor: pointer;
+    background-color: #eee;
+    margin: 0;
+    padding: 10px;
+}
+
+.menu-items p {
+    background-color: #ff0000;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+#location h2{
+    font-size: 30px;
+    color: black;
+    background-color: #f80000;
+    padding: 20px;
+}
+
+.lol {
+    font-size: 20px;
+}
+
+.btn{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    transition: .7s;
+    font-size: 15px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+}

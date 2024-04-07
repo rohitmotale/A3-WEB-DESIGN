@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KFC Home Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<div class="header">
+    <img src="images/KFC logo.svg" alt="">
+</div>
+    <main>
+        <div id="about">
+            <h2>About the Restaurant</h2>
+            <p>Welcome to KFC, a global favorite for delicious, finger-licking chicken! With a rich history dating back to 1930, KFC has been bringing joy to your taste buds with our secret blend of 11 herbs and spices. Our commitment to quality and flavor ensures that every meal is a memorable one.</p>
+        </div>
+        <section id="menu">
+            <h2>Pull Down Food Menu</h2>
+            <div class="menu-category" onclick="toggleMenu('chicken-menu')">
+                <h3>Chicken</h3>
+                <div id="chicken-menu" class="menu-items" style="display: none;">
+                    <p>Original Recipe</p>
+                    <p>Extra Crispy</p>
+                </div>
+            </div>
+            <div class="menu-category" onclick="toggleMenu('sides-menu')">
+                <h3>Sides</h3>
+                <div id="sides-menu" class="menu-items" style="display: none;">
+                    <p>French Fries</p>
+                    <p>Coleslaw</p>
+                </div>
+            </div>
+        </section>
+        <section id="location">
+            <h2>Google Map Direction</h2>
+            <div id="location-input">
+                <input type="text" id="start-location" placeholder="Enter starting location" class="lol">
+                <button onclick="calculateRoute()" class="btn">Get Directions</button>
+            </div>
+            <div id="map" style="height: 400px;"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
+</body>
+</html>
